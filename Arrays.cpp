@@ -23,7 +23,6 @@ int main()
     myArray.Import_array();
     myArray.merge_sort(0,0,1);
     myArray.Export_array();
-    //cout << "csdfdf";
     fclose(stdin);
     fclose(stdout);
     return 0;

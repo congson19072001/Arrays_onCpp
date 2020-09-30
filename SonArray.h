@@ -78,8 +78,8 @@ public:
         //*******************************************
         // Export alternately all elements in the array via cout
         //*******************************************
-        long i = 1;
-      //  for (i = 0; i < amount - 1; i++)
+        long i;
+        for (i = 0; i < amount - 1; i++)
             cout << array[i] << " ";
         cout << array[i] << endl;
     }
